@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viral News - Notícias Virais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff4500;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .post {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post h2 {
+            color: #ff4500;
+        }
+        .author {
+            font-style: italic;
+            color: #555;
+        }
+        .social-share {
+            margin-top: 10px;
+        }
+        .social-share a {
+            text-decoration: none;
+            color: white;
+            background: #ff4500;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin-right: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Viral News - As Notícias Mais Quentes da Internet!</header>
+    <div class="container">
+        <div class="post">
+            <h2>Notícia Viral #1</h2>
+            <p>Resumo da notícia viral com um conteúdo atrativo e chamativo.</p>
+            <p class="author">Por Roberto Silva</p>
+            <div class="social-share">
+                <a href="#">Compartilhar no Facebook</a>
+                <a href="#">Compartilhar no Twitter</a>
+            </div>
+        </div>
+        <div class="post">
+            <h2>Notícia Viral #2</h2>
+            <p>Outro destaque viral que está bombando nas redes sociais.</p>
+            <p class="author">Por Roberto Silva</p>
+            <div class="social-share">
+                <a href="#">Compartilhar no Facebook</a>
+                <a href="#">Compartilhar no Twitter</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Viral News - Todos os direitos reservados. Criado por Roberto Silva.
+    </footer>
+</body>
+</html>
